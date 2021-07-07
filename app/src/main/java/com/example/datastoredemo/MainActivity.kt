@@ -8,7 +8,9 @@ import kotlinx.android.synthetic.main.activity_main.*
 private const val TAG = "MainActivity"
 
 class MainActivity : AppCompatActivity() {
+
     private val testKey by myIntPreferencesKey(0)
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
